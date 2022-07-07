@@ -2,9 +2,107 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>HTML</title>
+    <title>HTML EXAM</title>
+<style>
+input {
+    border: groove 3px #ece5e5;
+}
+textarea{
+    border: groove 3px #ece5e5;
+}    
+/* input:focus {
+    bordr: solid 1px #7c7575
+} */
+</style>
 </head>
 <body>
-
-</body>
+    <form  action="/echo" method="POST">
+        <table Style="table-layout: fixed;">
+        <tr>
+        <P style="font-size:26px;font-weight: bold">Undified Modeling Language Theory Test</P>
+        <td style="width:400px;"><p>Test Subject:Undified Modeling Language</p></td>
+        <td style="width:300px;"><p>Time:100 minute</p></td>
+        <td style="width:300px;"><p>Score:100</p></td>
+        <br>
+        </tr>
+        <tr>
+        <td style="width:300px;"><span>Class</span>
+            <select>
+                <option value ="1">Class1</option>
+                <option value ="2">Class2</option>
+                <option value="3">Class3</option>
+                <option value="4">Class4</option>
+              </select></td>
+        <td style="width:300px;">Student ID:<input type="text"  style= "border: groove 3px #ece5e5;"name="pro" value="001"/></td>
+        <td style="width:300px;">Name:<input type="text" style= "border: groove 3px #ece5e5;" name="pro" value="Darcy"/></td>
+        </tr>
+    </table>
+    <table Style="table-layout: fixed;">
+        <tr>
+        <P style="font-size:26px;font-weight: bold">1、Fill in the blanks(5 point per space, 20 points total)</P>
+        <td >1.The full name of UML in Chinese is:<input type="text" name="pro" value="Undified Modeling Language"/></td>
+        </tr>
+        <tr>
+        <td >2.The most prominent feature of the object is:<input type="text" name="pro" value="Encapsulation"/><input type="text" name="pro2" value="Inheritance"/><input type="text" name="pro3" value="Polymorphism"/></td>
+        </tr>
+    </table>
+    <table Style="table-layout: fixed;">
+        <P style="font-size:26px;font-weight: bold">2、Multiple choice question(10 points per space,20 points total)</P>
+        <tr>
+        <td><p>1.The full name of UML in Chinese is:</p></td>
+        </tr>
+        <tr> <td ><input type="radio" name="radio1" value="1"/>(A) UML is software engineering</td></tr>
+        <tr> <td ><input type="radio" name="radio1" value="1"/>(B) UML is software engineering</td></tr>
+        <tr> <td ><input type="radio" name="radio1" value="1"/>(C) UML is software engineering</td></tr>
+        <tr> <td ><input type="radio" name="radio1" value="1"/>(D) UML is software engineering</td></tr>
+        <tr>
+        <td ><p>2.Java language support：</p></td>
+        </tr>
+            <tr> <td ><input type="radio" name="radio2" value="1"/>(A) Single Inheritance</td></tr>
+            <tr> <td ><input type="radio" name="radio2" value="1"/>(B) Single Inheritance</td></tr>
+            <tr> <td ><input type="radio" name="radio2" value="1"/>(C) Single Inheritance</td></tr>
+            <tr> <td ><input type="radio" name="radio2" value="1"/>(D) Single Inheritance</td></tr>
+    </table>
+    <table Style="table-layout: fixed;">
+        <P style="font-size:26px;font-weight: bold">3、Multiple choice (10 points per space,20 points total)</P>
+        <tr>
+        <td><p>1.The granularity of the case is divided into the following three:</p></td>
+        </tr>
+        <tr> <td ><input type="checkbox" name="checkbox1" value="1"/>(A) Overview level</td></tr>
+        <tr> <td ><input type="checkbox" name="checkbox1" value="1"/>(B) Demand level</td></tr>
+        <tr> <td ><input type="checkbox" name="checkbox1" value="1"/>(C) User target level</td></tr>
+        <tr> <td ><input type="checkbox" name="checkbox1" value="1"/>(D) Sub-function level</td></tr>
+        <tr>
+        <td ><p>2.Java language support：</p></td>
+        </tr>
+            <tr> <td ><input type="checkbox" name="checkbox2" value="2"/>(A) Name</td></tr>
+            <tr> <td ><input type="checkbox" name="checkbox2" value="2"/>(B) Attribute</td></tr>
+            <tr> <td ><input type="checkbox" name="checkbox2" value="2"/>(C) Operation/td></tr>
+            <tr> <td ><input type="checkbox" name="checkbox2" value="2"/>(D) Function</td></tr>
+    </table>
+    <table Style="table-layout: fixed;">
+        <P style="font-size:26px;font-weight: bold">4、True or False(10 points per space,20 points total)</P>
+        <tr>
+        <td><p>1.The granularity of the case is divided into the following three:</p></td>
+        <td><input type="radio" name="radio3" value="2"/>✓</td>
+        <td><input type="radio" name="radio3" value="2"/>✕</td>
+        </tr>
+        <tr>
+            <td><p>2.In the state diagram, the termination state allows any number of multiples in a state diagram.:</p></td>
+            <td><input type="radio" name="radio4" value="2"/>✓</td>
+            <td><input type="radio" name="radio4" value="2"/>✕</td>
+        </tr>
+    </table>
+    <table Style="table-layout: fixed;">
+        <P style="font-size:26px;font-weight: bold">5、Short answer question(20 points per space,20 points total)</P>
+        <tr>
+        <td><p>1.Briefly describe what the model is and how it behaves?:</p></td>
+        </tr>
+        <tr>
+            <td><textarea name="description" cols="100" rows="10">A model is a simplification and abstraction  of the real world. </textarea></td>
+        </tr>
+    </table>
+        <button type="submit">Calculating score</button>
+      </form>
+  </body>
 </html>
